@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpword": "^0.17.0",
+        "phpmailer/phpmailer": "^6.2"
+    }
+}

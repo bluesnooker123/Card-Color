@@ -1,0 +1,121 @@
+#body_back{
+    background-color: white;
+//    background-image: url(../image/first_back.jpg);
+    // background-image: url(../colorlib-wizard-21//colorlib-wizard-21/images/wizard-v1.jpg);
+    // background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    // height: 100%;
+}
+#div_welcome{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 15vh;
+    font-size: 50px;
+}
+#div_main{
+    width: 50%;
+    // height: 50vh;
+    background-color: white;
+    margin-left:25%;
+    margin-top:5vh;
+    text-align: center;
+    padding:10px;
+}
+#input_code{
+    width: 50%;
+    margin-left:25%;
+}
+#btn_submit{
+    font-size: 200%;
+    width: 15%;
+    min-width: 125px;
+    padding-top: 0px;
+}
+.guide-text{
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.guide-text-italic{
+    font-style: italic;
+}
+.font-large{
+    font-size: 20px;
+}
+.font-blue{
+    color: blue;
+}
+.swal-wide{
+    width:850px !important;
+}
+.svg-img{
+    width:9%;
+    border: solid 1px gray;
+    margin: 3px;
+    cursor: pointer;
+}
+#div_svg{
+    border: solid 1px gray;
+    padding: 20px 0px 20px 20px;
+}
+#btn_goto_firstpage{
+    background-image: url(../image/return.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 70px;
+}
+#div_selected_attract_card, #div_selected_reject_card, #div_selected_guidance_card{
+    border: solid 1px gray;
+    width: 100%;
+    height: 30vh;
+}
+#btn_next{
+    background-image: url("../image/next.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 7vh;
+    margin-top: 30%;
+}
+#div_next_btn{
+    position: absolute;
+    margin-left: 67%;
+    margin-top: -12%;
+    width: 7%;
+}
+.color-img{
+    width: 10%;
+    border: solid 1px black;
+    margin: 0.3% 0.3% 2% 0.3%;
+    cursor: pointer;
+}
+.modal-dialog{
+    max-width: 70%; /* New width for default modal */
+    margin-top: 7vh;
+}
+.modal-body{
+    padding-left: 2.5%;
+}
+// .border-card{
+    // outline: solid 5px black;
+    // outline-offset: -2px;
+
+// }
+#final_page{
+    width: 100%;
+    margin-top: 10%;
+}
+#final_text{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.color-img-back{
+    width: 7.3%;
+    border: solid 1px black;
+    margin: 0.3% 0.3% 2% 0.3%;
+    // cursor: pointer;
+    visibility: hidden;
+}
